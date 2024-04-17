@@ -187,3 +187,10 @@ footer {
   transition: opacity 4s ease; /* Ajoute une transition pour l'opacité */
   margin-top: 150px;
 }
+ul {
+  list-style-type: none; /* Enlève les puces des listes non ordonnées */
+}
+
+li {
+  list-style-type: none; /* Enlève les puces des listes non ordonnées */
+}
