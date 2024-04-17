@@ -1,0 +1,189 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-left: 10%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f40;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40%;
+}
+
+.hero-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn-play {
+  background-color: #f40;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  width: 200px;
+  
+}
+
+.btn-play:hover {
+  background-color: #d20;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.arrow-show {
+  width: 100px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.arrow-show:hover {
+  padding-left: 50px;
+  transition: 0.5s;
+}
+
+.cv-div>h2 {
+  color: white;
+  margin-left: 50px;
+}
+
+.pdf1 {
+  margin-left: 30%;
+  width: 40%;
+  display: none; /* Par défaut, le PDF est caché */
+  opacity: 0 ;
+}
+
+.pdf1.visible {
+  display: block; /* Lorsque la classe 'visible' est ajoutée, le PDF est affiché */
+  transition: 0.5s ;
+  opacity: 1;
+}
+.pdf2 {
+  margin-left: 30%;
+  width: 40%;
+  display: none; /* Par défaut, le PDF est caché */
+  opacity: 0 ;
+}
+
+.pdf2.visible {
+  display: block; /* Lorsque la classe 'visible' est ajoutée, le PDF est affiché */
+  transition: 0.5s ;
+  opacity: 1;
+}
+.txt > li{
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  display : none;
+  opacity: 0 ;
+  transition: 4s ;
+  margin-top: 150px;
+}
+
+.image{
+  width : 40%;
+  margin-left: 30%;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.oui{
+  text-align: center;
+  color : #fff ;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.oui2{
+  text-align: center;
+  color : #f40;
+  margin : 30px;
+}
+
+.projets {
+  display : none;
+}
+
+.projets.visible {
+  display : block;
+}
+
+.txt > li {
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: none;
+  opacity: 0;
+  transition: opacity 4s ease; /* Ajoute une transition pour l'opacité */
+  margin-top: 150px;
+}
